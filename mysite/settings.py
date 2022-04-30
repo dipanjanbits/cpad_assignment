@@ -101,7 +101,7 @@ DATABASES = {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'blogdb',
     'USER': 'blog_user',
-    'PASSWORD': 'blog_pass',
+    'PASSWORD': 'blogpass',
     'HOST': 'blog-database-2.cqfm2k6vgxo8.ap-south-1.rds.amazonaws.com',
     'PORT': '5432',
     }

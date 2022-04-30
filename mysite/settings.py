@@ -26,7 +26,8 @@ SECRET_KEY = "0x!b#(1*cd73w$&azzc6p+essg7v=g80ls#z&xcx*mpemx&@9$"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.compute.amazonaws.com','.ap-south-1.elasticbeanstalk.com']
+#ALLOWED_HOSTS = ['.compute.amazonaws.com','.ap-south-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
